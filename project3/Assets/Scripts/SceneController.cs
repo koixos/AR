@@ -6,7 +6,7 @@ using Vuforia;
 
 public class SceneController : MonoBehaviour
 {
-    public ARSession arSession = null;
+    /*public ARSession arSession = null;
     public XROrigin origin = null;
 
     private bool isVuforiaActive = false;
@@ -15,14 +15,14 @@ public class SceneController : MonoBehaviour
     private void Awake()
     {
         ManageSDKs(SceneManager.GetActiveScene().name);
-    }
+    }*/
 
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
 
-    private void ManageSDKs(string sceneName)
+    /*private void ManageSDKs(string sceneName)
     {
         if (sceneName.Contains("Vuforia"))
         {
@@ -102,5 +102,5 @@ public class SceneController : MonoBehaviour
         }
 
         isARFoundationActive = false;
-    }
+    }*/
 }
